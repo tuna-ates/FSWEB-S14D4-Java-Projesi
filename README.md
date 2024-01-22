@@ -11,19 +11,19 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
 ### Product For Sale
 
- * ProductForSale isimli bir ```abstract``` sınıf oluşturunuz.
+ * productForSale.ProductForSale isimli bir ```abstract``` sınıf oluşturunuz.
  * Bu sınıf içerisinde 3 tane ```private``` değişken tanımlayınız. ```type, price, description```. Tiplerinin ne olması gerektiğine karar veriniz ve hepsi için birer getter metodu yazınız.
  * Tek bir tane ```constructor``` metodu tanımlayınız. 3 ```instance variable``` değerini de set etmeli.
- * ProductForSale sınıfına ```getSalesPrice(int quantity)``` isimli bir metod ekleyiniz. ```quantity*price``` değerini dönmeli.
- * ProductForSale sınıfına ```showDetails``` isimli ```abstract``` bir metod ekleyiniz. Dönüş değeri olmamalı.
+ * productForSale.ProductForSale sınıfına ```getSalesPrice(int quantity)``` isimli bir metod ekleyiniz. ```quantity*price``` değerini dönmeli.
+ * productForSale.ProductForSale sınıfına ```showDetails``` isimli ```abstract``` bir metod ekleyiniz. Dönüş değeri olmamalı.
 
- * ```Chocolate, Coke, Bread``` isimli 3 tane yeni sınıf oluşturunuz. 3 sınıfta ```ProductForSale``` sınıfından türemeli.
+ * ```productForSale.Chocolate, productForSale.Coke, productForSale.Bread``` isimli 3 tane yeni sınıf oluşturunuz. 3 sınıfta ```productForSale.ProductForSale``` sınıfından türemeli.
  * Her sınıfa o sınıfa özgü en az bir tane daha ```instance variable``` değeri ekleyiniz.
- * ```showDetails``` isimli metot, ProductForSale üzerinde var olan ve kendine özgü olan tüm ```instance variable``` değerlerini anlaşılabilir bir şekilde ekrana bastırmalı.
+ * ```showDetails``` isimli metot, productForSale.ProductForSale üzerinde var olan ve kendine özgü olan tüm ```instance variable``` değerlerini anlaşılabilir bir şekilde ekrana bastırmalı.
 
  * Store sınıfı içerisinde bulanan ```listProducts``` metodu parametre olarak aldığı ```products``` dizisini gezmeli ve her bir değer için  ```showDetails``` metodunu çağırmalı.
- * Store sınıfında main metodu içerisinde ProductForSale değeri alabilen bir dizi oluşturmalısınız. 
- * Bu dizinin içerisine ```Chocolate, Coke, Bread``` objelerinden birer adet eklemelsiniz.
+ * Store sınıfında main metodu içerisinde productForSale.ProductForSale değeri alabilen bir dizi oluşturmalısınız. 
+ * Bu dizinin içerisine ```productForSale.Chocolate, productForSale.Coke, productForSale.Bread``` objelerinden birer adet eklemelsiniz.
  * Bu diziyi ```listProducts``` metoduna parametre olarak geçiniz.
  * Her bir ```showDetails``` metodu çağırıldığında çağırıldığı objeye göre mesaj döndüğünden emin olunuz.
 
